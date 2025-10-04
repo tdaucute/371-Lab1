@@ -6,7 +6,7 @@
 // The numbers following the LED stand for the wiringPi numbering scheme, On a Raspberry Pi 4: WiringPi 2 (GPIO 27) → Physical pin 13; 
 #define LED 0
 
-char *gets(char *s);
+char *gets(char *s); // gcc does not compile without this
 
 
 struct {
